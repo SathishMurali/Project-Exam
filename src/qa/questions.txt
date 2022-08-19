@@ -1,0 +1,29 @@
+1). Which of the following option leads to the portability and security of Java?
+a. Bytecode	b. The applet makes the Java code secure and portable	c. Use of Exception handling	d. Dynamic binding between objects
+
+2). Which of the following is not a Java features?
+a. Dynamic	b. Architecture Neutral	c. Use of Pointers	d. Object-oriented
+
+3). _____ is used to ifind and fix bugs in the Java programs.
+a. JVM	b. JRE	c. JDK	d. JDB
+
+4). What is the return type of the hashCode() method in the Object class?
+a. Object	b. int	c. long	d. void
+
+5). Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?
+a. javap tool	b. javaw command	c.javadoc tool	d. javah command
+
+6). In which process, a local variable has the same name as one of the instance variables?
+a. Serialization	b. Variable Shadowing	c. Abstraction	d. Multi-threading
+
+7). Which of the following is true about the anonymous inner class?
+a. It has only methods	b. Objects can't be created	c. It has a fixed class name	d. It has no class name
+
+8). Which package contains the Random class?
+a. java.util package	b. java.lang package	c. java.awt package	d. java.io package
+
+9). An interface with no fields or methods is known as a ______
+a. Runnable Interface	b. Marker Interface	c. Abstract Interface	d. CharSequence Interface
+
+10). Which of the following is an immediate subclass of the Panel Class?
+a. Applet class	b. Window class	c. Frame class	d. Dialog class
