@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 interface app {
     void welcome() throws InterruptedException, IOException;
@@ -11,6 +12,7 @@ class Interface implements app {
     static String path;
     String name;
     int roll;
+
     public void welcome() throws InterruptedException, IOException {
         Scanner sc = new Scanner(System.in);
         System.out.println("\t\t\t\t\t\t\tWelcome to Examination Center!\n\t\t\t\t\t============================================");
@@ -23,7 +25,7 @@ class Interface implements app {
     }
 
     public void questionDisplay() throws InterruptedException, IOException {
-        File link = new File("D:\\JAVA FSD\\Project-Exam\\src\\results\\" + name + "(" + roll + ")" + LocalDate.now() + ".txt");
+        File link = new File("D:\\Project-Exam\\src\\results\\" + name + "(" + roll + ")" + LocalDate.now() + ".txt");
         link.createNewFile();
         path = link.toString();
 

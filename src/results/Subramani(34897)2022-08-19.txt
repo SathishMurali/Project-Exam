@@ -1,0 +1,13 @@
+Exam Starting Time: 11:54:15.839029500
+Your Answers:		Correct Answers:
+	a						a
+	c						c
+	b						d
+	d						b
+	c						c
+	a						b
+	b						d
+	c						a
+	d						b
+	b						a
+Total Score: 3/10

@@ -1,5 +1,6 @@
 public class ChoicePojo {
     private int id;
+    private String choice;
 
     public ChoicePojo(int id, String choice) {
         this.id = id;
@@ -22,5 +23,4 @@ public class ChoicePojo {
         this.choice = choice;
     }
 
-    private String choice;
 }

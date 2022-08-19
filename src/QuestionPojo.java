@@ -7,11 +7,19 @@ public class QuestionPojo {
     private String correctAnswer;
     private ArrayList<ChoicePojo> answers;
 
+    public String getQuestionTwo() {
+        return questionTwo;
+    }
+
+    public void setQuestionTwo(String questionTwo) {
+        this.questionTwo = questionTwo;
+    }
+
     public QuestionPojo(int id, String question, String questionTwo, String correctAnswer) {
         this.id = id;
         this.question = question;
-        this.correctAnswer = correctAnswer;
         this.questionTwo = questionTwo;
+        this.correctAnswer = correctAnswer;
     }
 
     public int getId() {
